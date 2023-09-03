@@ -17,7 +17,10 @@ body {
 .top {
   width: 100%;
   height: 60%;
-  background-color: #90caf9;
+  /* background-color: #90caf9; */
+  background-image: url(https://images.unsplash.com/photo-1693421385607-8f034601ad6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80);
+  background-position: center;
+  background-size: cover;
 }
 
 .toverlay {
@@ -44,33 +47,50 @@ p {
 .b1 {
   width: 25%;
   height: 100%;
-  background-color: #bbdefb;
+  /* background-color: #bbdefb; */
+  background-image: url(https://images.unsplash.com/photo-1668127852226-9a43b4c38c80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80);
+  background-position: center;
+  background-size: cover;
 }
 .b2 {
   width: 25%;
   height: 100%;
-  background-color: #90caf9;
+  /* background-color: #90caf9; */
+  background-image: url(https://images.unsplash.com/photo-1672329753774-2c81f254471f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80);
+  background-position: center;
+  background-size: cover;
 }
 .b3 {
   width: 25%;
   height: 100%;
-  background-color: rgb(224, 255, 46);
+  /* background-color: rgb(224, 255, 46); */
+
   display: flex;
 }
 .b3top {
   width: 50%;
   height: 100%;
-  background-color: #64b5f6;
+  /* background-color: #64b5f6; */
+
+  background-image: url(https://images.unsplash.com/photo-1675821422070-b2ce68d02abc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
+  background-position: center;
+  background-size: cover;
 }
 .b3bottom {
   width: 50%;
   height: 100%;
-  background-color: #42a5f5;
+  /* background-color: #42a5f5; */
+  background-image: url(https://images.unsplash.com/photo-1672161622495-73eeeff82dfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80);
+  background-position: center;
+  background-size: cover;
 }
 .b4 {
   width: 25%;
   height: 100%;
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
+  background-image: url(https://images.unsplash.com/photo-1595319100707-9401051ba7d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80);
+  background-position: center;
+  background-size: cover;
 }
 
 @media (max-width: 600px) {
@@ -134,6 +154,10 @@ p {
     width: 100%;
     height: 25%;
     background-color: #616161;
+
+    display: flex;
+  }
+}
 
     display: flex;
   }
